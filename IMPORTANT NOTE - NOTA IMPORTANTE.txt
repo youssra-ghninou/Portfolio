@@ -1,0 +1,32 @@
+IMPORTANT NOTE - Description English 
+
+* Modify the project
+
+Just add your information in the HTML file and leave the project like this.
+
+If you are going to modify the project in the CSS file, do it normally.
+
+If you are going to modify the project with the sass files, I recommend 
+watching my video on how to use Sass and my setup for the projects. 
+If you already know Sass and have your own setup, you can skip the video.
+
+Video Sass
+https://youtu.be/PYm6QkM7bOU
+
+*Favicon
+
+If you want to create your favicon, do it in any design tool
+(I recommend figma, it's easier) and export it with the size of 32px.
+
+* Images of projects
+
+When you insert the images of your projects, keep in mind that they must measure 
+in a rectangular format (eg: 600 x 400, 1000 x 800, 1200 x 1000, etc).
+
+* Contact buttons
+
+In the image of button contact home that comes in the folder it is shown in 
+the red boxes that you must modify and insert your real data. Open the HTML 
+file and modify.
+
+===================================================================
