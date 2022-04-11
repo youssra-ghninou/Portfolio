@@ -6,6 +6,7 @@ body{
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 main{
   display: flex;
@@ -13,65 +14,149 @@ main{
   align-items: center;
 }
 #profile{
-  width: 15%;
+  width: 78px;
   height: auto;
+  border-radius: 50%; 
+  background: linear-gradient(180deg, rgba(66,164,245,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
 }
-.image{
-  width : max-content;
+.image1{
+  background-color: white;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+  border: solid #42a4f5 3px;
+}
+.image{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  font-size: 18px;
+  font-family:Roboto;
+  font-weight: 900;
+}
+.job{
+  font-size: 15px;
+  font-family:Roboto;
+  
+}
+.socials{
+  display: flex;
+  gap: 0.75rem;
 }
 .competences{
   display: flex;
-  width: 330px;
+  width: 300px;
   justify-content: space-around;
 }
 .article{
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
+  margin-top: 20px;
 }
 .case{
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 0.5rem;
-  background-color: red;
   height: 50px;
   width: 70px;
 }
 .number{
   font-size: 12px;
   font-family:Roboto;
-  font-weight: bold;
   width: 70px;
 }
 .text{
   font-size: 12px;
   font-family:Roboto;
-  
   width: 70px;
   display: flex;
   justify-content: space-around;
-
 }
 .contact{
   display: flex;
   gap: 2rem;
 }
+.button-1{
+  color:black;
+  background-color: #e9ebed;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.wtp{
+  color: black;
+}
+.mess{
+  color:black ;
+}
 .buttons-1{
   display: flex;
-  gap: 0.5rem;
+  gap: 0.25rem;
+  display: flex;
+  align-items: center;
 }
 .button{
-  width:130px ;
-  height: 40px;
-  background-color: rgb(132, 215, 248);
-  
+  width:150px ;
+  height: 50px;
+  background-color: #42a4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .down{
   text-decoration: none;
   display: flex;
   align-items: center;
- 
+  color: aliceblue;
+  font-weight: bold;
+  font-family:Roboto;
+}
+.switcher{
+  padding: 5px;
+  background-color: #e9ebed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.projects{
+  text-decoration: none;
+  font-weight: bold;
+  font-family:Roboto;
+  font-size: 12px;
+  color:#353637 ;
+  background-color:white ;
+  width: 120px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.skills{
+  background-color: #e9ebed;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  width: 120px;
+  font-family:Roboto;
+  color:#353637 ;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
