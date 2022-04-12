@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300&display=swap');
+html{
+  padding: 0px;
+  margin: 0px;
+}
 body{
   padding: 0px;
   margin: 0px;
@@ -7,6 +11,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  font-family:Roboto;
 }
 main{
   display: flex;
@@ -36,12 +41,10 @@ main{
 }
 .name{
   font-size: 18px;
-  font-family:Roboto;
   font-weight: 900;
 }
 .job{
   font-size: 15px;
-  font-family:Roboto;
 }
 .socials{
   display: flex;
@@ -66,16 +69,13 @@ main{
   gap: 0.5rem;
   height: 50px;
   width: 70px;
-  
 }
 .number{
   font-size: 12px;
-  font-family:Roboto;
   width: 70px;
 }
 .text{
   font-size: 12px;
-  font-family:Roboto;
   width: 70px;
   display: flex;
   justify-content: space-around;
@@ -122,7 +122,6 @@ main{
   align-items: center;
   color: aliceblue;
   font-weight: bold;
-  font-family:Roboto;
 }
 .switcher{
   padding: 5px;
@@ -136,7 +135,6 @@ main{
 .projects{
   text-decoration: none;
   font-weight: bold;
-  font-family:Roboto;
   font-size: 12px;
   color:#353637 ;
   background-color:white ;
@@ -153,7 +151,6 @@ main{
   font-weight: bold;
   font-size: 12px;
   width: 120px;
-  font-family:Roboto;
   color:#353637 ;
   height: 33px;
   display: flex;
@@ -168,24 +165,43 @@ main{
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
+  
 }
 #p1{
   width: 330px;
   height: 250px;
   border-radius: 15px;
 }
-#p1:hover{
-
+.text-filter{
+  width: 330px;
+  height: 250px;
+  position: absolute;
+  background-color: red;
+  top: 0px;
+  z-index: 0;
 }
-.text-hover{
+.text-filter:hover{
+  display: block;
+  background-color: green;
+  visibility: visible;
+}
+.text-h:hover{
+  display: block;
+  background-color: white;
+  visibility: visible;
+  z-index: 1;
+  visibility: visible;
+}
+.text-h{
   position: absolute;
   bottom: 20px;
   color: white;
-  font-family:Roboto;
   padding-left: 10px;
-  display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  visibility:hidden ;
+  z-index: 1;
+
 }
 .icon-link{
   background-color: #42a4f5;
@@ -194,7 +210,6 @@ main{
   border-radius: 7px;
 }
 a{
-  text-decoration: none;
   color: #e9ebed;
 }
 .description{
@@ -205,16 +220,42 @@ a{
 }
 .line1{
   position: relative;
+  background-image: url("./../img/project1.jpg");
+  background-size: cover;
+   width: 330px;
+  height: 250px;
+  border-radius: 15px;
+  
 }
 .line2{
   position: relative;
+  background-image: url("./../img/project2.jpg");
+   background-size: cover;
+   width: 330px;
+  height: 250px;
+  border-radius: 15px;
 }
 .line3{
   position: relative;
+  background-image: url("./../img/project3.jpg");
+   background-size: cover;
+   width: 330px;
+  height: 250px;
+  border-radius: 15px;
 }
 .line4{
   position: relative;
+  background-image: url("./../img/project4.jpg");
+   background-size: cover;
+   width: 330px;
+  height: 250px;
+  border-radius: 15px;
 }
 .line5{
   position: relative;
+  background-image: url("./../img/project5.jpg");
+   background-size: cover;
+   width: 330px;
+  height: 250px;
+  border-radius: 15px;
 }
