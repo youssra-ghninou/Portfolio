@@ -42,7 +42,6 @@ main{
 .job{
   font-size: 15px;
   font-family:Roboto;
-  
 }
 .socials{
   display: flex;
@@ -67,6 +66,7 @@ main{
   gap: 0.5rem;
   height: 50px;
   width: 70px;
+  
 }
 .number{
   font-size: 12px;
@@ -159,4 +159,62 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.photos{
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+#p1{
+  width: 330px;
+  height: 250px;
+  border-radius: 15px;
+}
+#p1:hover{
+
+}
+.text-hover{
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-family:Roboto;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.icon-link{
+  background-color: #42a4f5;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 7px;
+}
+a{
+  text-decoration: none;
+  color: #e9ebed;
+}
+.description{
+  font-weight: bold;
+}
+.git-project{
+  font-size: 12px;
+}
+.line1{
+  position: relative;
+}
+.line2{
+  position: relative;
+}
+.line3{
+  position: relative;
+}
+.line4{
+  position: relative;
+}
+.line5{
+  position: relative;
 }
